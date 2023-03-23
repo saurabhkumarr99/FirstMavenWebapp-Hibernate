@@ -1,0 +1,50 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>FrontController</servlet-name>
+  	<display-name>FrontController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.FrontController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudRegController</servlet-name>
+  	<display-name>StudRegController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.StudRegController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>getStudentData</servlet-name>
+  	<display-name>getStudentData</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.getStudentData</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>curd</servlet-name>
+  	<display-name>curd</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.curd</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  	<servlet-name>FrontController</servlet-name>
+  	<url-pattern>/FrontController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StudRegController</servlet-name>
+  	<url-pattern>/StudRegController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>getStudentData</servlet-name>
+  	<url-pattern>/getStudentData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>curd</servlet-name>
+  	<url-pattern>/curd</url-pattern>
+  </servlet-mapping>
+ 
+</web-app>
